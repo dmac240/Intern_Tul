@@ -29,4 +29,8 @@ addRight(value){
         this.right = new node(value);
     }
 }
+
+getRootNode(){
+    return this.root;
+}
 }
